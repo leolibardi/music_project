@@ -17,8 +17,8 @@ public class Musica extends Audio {
     }
 
 
-    public void showStats(){
-        System.out.println(getTitulo() + ", " + getArtist() + ", " + getAlbum() + ", " + getGenre() + ", " + releaseYear + ", " + getDuracao()/60+" minutos.\n\n" );
+    public void  showStats(){
+        System.out.println("Titulo: " + getTitulo() + ", \nArtista: " + getArtist() + ", \nAlbum: " + getAlbum() + ", \nGênero: " + getGenre() + ", \nAno de lançamento: " + releaseYear + ", \nDuração: " + getDuracao()/60+" minutos.\n\n" );
     }
 
 

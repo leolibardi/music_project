@@ -16,6 +16,7 @@ public class Audio {
         totalDeReproducoes++;
         System.out.println("Reproduzindo...");
         System.out.println("Total de reproduções: " + totalDeReproducoes);
+        System.out.println("Total de Curtidas: " + curtidas);
 
     }
 
